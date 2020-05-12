@@ -20,6 +20,26 @@ header{
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
 }
+.ashleySmall {
+  color: white;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+}
+
+.linkStyle{
+  color: white;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.projectsHeader {
+  font-weight: bold;
+  color: white;
+  font-family: 'Gruppo', cursive;
+  font-size: 50px;
+  text-align: center;
+}
 
 .projects {
   font-weight: bold;
@@ -34,12 +54,12 @@ header{
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
 }
- .footerText {
+ /* .footerText {
 
  }
  .footerSmallText {
 
- }
+ } */
 
 body {
   display: flex;
