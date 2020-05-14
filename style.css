@@ -32,6 +32,10 @@ header{
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
 }
+.responsive {
+  width: 100%;
+  height: auto;
+}
 
 .projectsHeader {
   text-align: center;
