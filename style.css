@@ -34,32 +34,30 @@ header{
 }
 
 .projectsHeader {
-  font-weight: bold;
-  color: white;
-  font-family: 'Gruppo', cursive;
-  font-size: 50px;
   text-align: center;
 }
 
 .projects {
   font-weight: bold;
-  text-decoration: underline;
   color: deepskyblue;
   font-family: 'Gruppo', cursive;
-  font-size: 50px;
+  font-size: 35px;
 }
 
 .smallProjects {
   color: white;
   font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
 }
- /* .footerText {
 
- }
- .footerSmallText {
+/* .card-padding{
+  padding: 10px;
+  border: 10px;
+} */
 
- } */
+.testLinks {
+  font-size: 15px;
+}
 
 body {
   display: flex;

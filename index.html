@@ -76,35 +76,78 @@
 
   <!--Projects-->
   <section class="container section" id="photos">
-    <div class="row">
-      <p class="projectsHeader">Projects</p>
-      <div class="col s12 l4">
-        <img src="imgs/fuelUp.PNG" alt="" class="responsive-img materialboxed">
-      </div>
-      <div class="col s12 l6 offset-l1">
-        <h2 class="projects"><a href="https://team6diamondplatipi.github.io/TechnicallyAMammal/" target="_blank">FuelUp!</a></h2>
-        <p class="smallProjects">With the rise of electric cars hitting the roads these days and no shortage of gas-powered cars, FuelUp! gives the user a one-stop hop to the nearest gas and charging stations.</p>
-      </div>
+
+    <div id="headerrow" class="row">
+      <p class="projectsHeader"><img src="imgs/projects.PNG"></p>
+      <!-- <div class="col s12 l6 offset-l1"> -->
       <br>
     </div>
-    <div class="row">
-      <div class="col s12 l4 offset-l1 push-l7">
-        <img src="imgs/pwGen.PNG" alt="passwordgenerator" class="responsive-img materialboxed">
+
+
+      <div id="cardsrow" class="row">
+        <div class="col s12 m12 l4 card-padding">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="imgs/fuelup.PNG">
+            </div>
+            <div class="card-content" style="background-color:rgba(0, 0, 0, 0.9);">
+              <span class="card-title activator projects" style="font-size: 30px; font-weight: bold;">FuelUp!<i class="material-icons right">more_vert</i></span>
+              <p class="smallProjects">Click for Details</p>
+            </div>
+            <div class="card-reveal" style="background-color:rgba(0, 0, 0, 0.9);">
+              <span class="card-title projects" style="font-size: 30px; font-weight: bold;">FuelUp!<i class="material-icons right">close</i></span>
+              <p class="smallProjects">With the rise of electric cars hitting the roads these days and no shortage of
+                gas-powered cars, FuelUp! gives the user a one-stop hop to the nearest gas and charging stations.</p>
+              <p class="testLinks"><a href="https://team6diamondplatipi.github.io/TechnicallyAMammal/">Test Here</a></p>
+              <p class="testLinks"><a href="https://github.com/Team6DiamondPlatipi/TechnicallyAMammal">View Repository</a></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col s12 m12 l4 card-padding">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="imgs/pwgen.PNG">
+            </div>
+            <div class="card-content" style="background-color:rgba(0, 0, 0, 0.9);">
+              <span class="card-title activator projects" style="font-size: 30px; font-weight: bold;">Password Generator<i class="material-icons right">more_vert</i></span>
+              <p class="smallProjects">Click for Details</p>
+            </div>
+            <div class="card-reveal" style="background-color:rgba(0, 0, 0, 0.9);">
+              <span class="card-title projects" style="font-size: 30px; font-weight: bold;">Password Generator<i class="material-icons right">close</i></span>
+              <p class="smallProjects">Generate a random password for all of your accounts. Choose between Uppercase,
+                Lowercase, numbers, and special characters between 8 and 20 characters long.</p>
+              <div>
+                <p class="testLinks"><a href="https://afeese.github.io/Password-Generator/">Test Here</a></p>
+                <p class="testLinks"><a href="https://github.com/AFeese/Password-Generator">View Repository</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m12 l4 card-padding">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="imgs/wdsched.PNG">
+            </div>
+            <div class="card-content" style="background-color:rgba(0, 0, 0, 0.9);">
+              <span class="card-title activator projects" style="font-size: 30px; font-weight: bold;">Workday Scheduler<i class="material-icons right">more_vert</i></span>
+              <p class="smallProjects">Click for Details</p>
+            </div>
+            <div class="card-reveal" style="background-color:rgba(0, 0, 0, 0.9);">
+              <span class="card-title projects" style="font-size: 30px; font-weight: bold;">Workday Scheduler<i class="material-icons right">close</i></span>
+              <p class="smallProjects">Organize your meetings and agenda on your time. Time slots are gray for past the
+                hour, red for current hour, and green for future hours. Saves your input when refreshing the page.</p>
+              <p class="testLinks"><a href="https://afeese.github.io/Day-Planner/">Test Here</a></p>
+              <p class="testLinks"><a href="https://github.com/AFeese/Day-Planner">View Repository</a></p>
+            </div>
+          </div>
+        </div>
+
       </div>
-      <div class="col s12 l6 offset-l1 pull-l5 right-align">
-        <h2 class="projects">Password Generator</h2>
-        <p class="smallProjects">Generate a random password for all of your accounts. Choose between Uppercase, Lowercase, numbers, and special characters between 8 and 20 characters long.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s12 l4">
-        <img src="imgs/planner.PNG" alt="planner" class="responsive-img materialboxed">
-      </div>
-      <div class="col s12 l6 offset-l1">
-        <h2 class="projects">Workday Scheduler</h2>
-        <p class="smallProjects">Organize your meetings and agenda on your time. Time slots are gray for past the hour, red for current hour, and green for future hours. Saves your input when refreshing the page.</p>
-      </div>
-    </div>
+
+
   </section>
 
 
@@ -128,17 +171,21 @@
       <div class="col l6 s12" style="text-align: center;">
         <h5 class="white-text footerText">Proudly Affiliated With: </h5>
         <ul>
-          <li><a class="grey-text text-lighten-3 footerSmallText" href="https://www.womenwhocode.com/" target="_blank">Women Who Code</a></li>
+          <li><a class="grey-text text-lighten-3 footerSmallText" href="https://www.womenwhocode.com/"
+              target="_blank">Women Who Code</a></li>
           <li>&</li>
-          <li><a class="grey-text text-lighten-3" href="https://github.com/Team6DiamondPlatipi" target="_blank">Team6DiamondPlatipi</a>
+          <li><a class="grey-text text-lighten-3" href="https://github.com/Team6DiamondPlatipi"
+              target="_blank">Team6DiamondPlatipi</a>
           </li>
         </ul>
       </div>
       <div class="col l4 offset-l2 s12" style="text-align: center;">
         <h5 class="white-text">Social</h5>
         <ul>
-          <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/ashley-feese/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a></li>
-          <li><a class="grey-text text-lighten-3" href="https://github.com/AFeese" target="_blank"><i class="fab fa-github-square fa-3x"></i></a></li>
+          <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/ashley-feese/" target="_blank"><i
+                class="fab fa-linkedin fa-3x"></i></a></li>
+          <li><a class="grey-text text-lighten-3" href="https://github.com/AFeese" target="_blank"><i
+                class="fab fa-github-square fa-3x"></i></a></li>
         </ul>
       </div>
     </div>
