@@ -2,11 +2,11 @@ header{
   background: url(imgs/helloMed.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 1000px;
+  min-height: 800px;
 }
 @media screen and (max-width: 670px){
   header{
-    min-height: 500px;
+    min-height: 300px;
   }
 }
 .section{
@@ -16,13 +16,17 @@ header{
 
 .ashley {
     color: white;
-    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
 }
 .ashleySmall {
   color: white;
-  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
 }
