@@ -58,13 +58,19 @@ header{
   font-size: 20px;
 }
 
+.cardBodyBorder {
+  border: solid;
+  border-color: rgb(146, 12, 255);
+  /* border-color: rgb(229, 113, 233); */
+}
+
 /* .card-padding{
   padding: 10px;
   border: 10px;
 } */
 
 .testLinks {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 body {
