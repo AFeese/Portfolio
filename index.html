@@ -25,22 +25,40 @@
   <header>
     <nav class="nav-wrapper transparent">
       <div class="container">
-        <a href="#" class="brand-logo ashley purple-text" style="font-size: 50px;">AF</a>
-        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
-          <i class="material-icons">menu</i>
+        <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+        <!-- <a href="#" class="sidenav-trigger" data-target="slide-out">
+          <i class="material-icons">menu</i> -->
         </a>
-        <ul class="right hide-on-med-and-down">
-          <li><a class="linkStyle" href="#photos">Projects</a></li>
+        <ul class="right">
           <li><a class="linkStyle" href="#about">About</a></li>
+          <li><a class="linkStyle" href="#photos">Projects</a></li>
           <li><a class="linkStyle" href="#footer">Contact</a></li>
         </ul>
-        <ul class="sidenav" style="background: 	#EE82EE" id="mobile-menu">
-          <li><a class="linkStyle" href="#photos">Projects</a></li>
+        <!-- <ul class="sidenav" style="background: 	#EE82EE" id="mobile-menu">
           <li><a class="linkStyle" href="#about">About</a></li>
+          <li><a class="linkStyle" href="#photos">Projects</a></li>
           <li><a class="linkStyle" href="#footer">Contact</a></li>
+        </ul> -->
+        <ul id="slide-out" class="sidenav">
+          <li><div class="user-view">
+            <div class="background">
+              <img src="images/office.jpg">
+            </div>
+            <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+            <a href="#name"><span class="white-text name">John Doe</span></a>
+            <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+          </div></li>
+          <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+          <li><a href="#!">Second Link</a></li>
+          <li><div class="divider"></div></li>
+          <li><a class="subheader">Subheader</a></li>
+          <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
         </ul>
+        <!-- <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
+      
       </div>
     </nav>
+
 
   </header>
 
@@ -71,7 +89,7 @@
   <!-- parallax -->
   <div class="parallax-container">
     <div class="parallax">
-      <img src="imgs/circuit.jpg" alt="circuitImg" class="responsive-img">
+      <img src="imgs/circuitNarrow.jpg" alt="circuitImg" class="responsive-img">
     </div>
     <div id="headerrow" class="row">
       <p class="projectsHeader"><img src="imgs/projectsLrg.png" alt="projects" class="responsive"></p>
@@ -91,7 +109,7 @@
 
 
     <div id="cardsrow" class="row">
-      <div class="col s12 m12 l4 card-padding">
+      <div class="col s4 m4 l4 card-padding">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="imgs/fuelup.jpg">
@@ -113,7 +131,7 @@
         </div>
       </div>
 
-      <div class="col s12 m12 l4 card-padding">
+      <div class="col s4 m4 l4 card-padding">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="imgs/templateENG.png">
@@ -138,7 +156,7 @@
         </div>
       </div>
 
-      <div class="col s12 m12 l4 card-padding">
+      <div class="col s4 m4 l4 card-padding">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="imgs/notetaker.png">
@@ -166,7 +184,7 @@
 
     <div id="cardsrow" class="row">
 
-      <div class="col s12 m12 l4 card-padding">
+      <div class="col s4 m4 l4 card-padding">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="imgs/cliReadme.PNG">
@@ -189,7 +207,7 @@
       </div>
 
 
-      <div class="col s12 m12 l4 card-padding">
+      <div class="col s4 m4 l4 card-padding">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="imgs/pwgen.jpg">
@@ -212,7 +230,7 @@
         </div>
       </div>
 
-      <div class="col s12 m12 l4 card-padding">
+      <div class="col s4 m4 l4 card-padding">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="imgs/wdsched.jpg">
@@ -244,16 +262,32 @@
     <div class="parallax">
       <img src="imgs/circuit.jpg" alt="circuitImg" class="responsive-img">
     </div>
-    <!-- <div class="contact-title">
-      <h1>Say Hello</h1>
-      <h2>We are always ready to serve you!</h2>
-    </div>-->
   </div>
 
-  <!-- <div>
-    <h1></h1>
-      <h2></h2>
-  </div> -->
+  <div class="container responsive">
+
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSetc-bb3n6QwyLi0OJpaPCQ6CwkqiVq242Ik5ol1INCT6DoOg/viewform?embedded=true" 
+    width="802" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <!-- <div class="contact-title">
+      <h1>Say Hello</h1>
+      <h2>Contact</h2>
+    </div>
+    <div class="contact-form">
+      <form id="contact-form" method="post" action="">
+        <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+        <br>
+        <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+        <br>
+        <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea>
+        <br>
+        <input type="submit" class="form-control submit" value="SEND MESSAGE">
+      </form> 
+    </div> -->
+  </div>
+
+
+
+
 
 </body>
 
@@ -284,7 +318,7 @@
       </div>
     </div>
   </div>
-  <div class="footer-copyright pink accent-4">
+  <div class="footer-copyright purple accent-4">
     <div class="container">
       © 2020 Copyright - Ashley Feese - Powered by GitHub
       <a class="grey-text text-lighten-4 right" href="index.html">Back to Top</a>
