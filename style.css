@@ -17,6 +17,10 @@ body {
   background: black;
 }
 
+.navigationbar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .section{
   padding-top: 4vw;
   padding-bottom: 4vw;
@@ -88,7 +92,10 @@ body {
   background: black;
 } */
 
-.contact-title {
+
+/*CSS for potential form input
+
+/* .contact-title {
   text-align: center;
   margin-top: 50px;
   color: #fff;
@@ -145,7 +152,7 @@ form .submit:hover{
   background-color: #f44336;
   cursor: pointer;
 
-}
+} */
 
 
 main {
