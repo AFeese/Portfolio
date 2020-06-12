@@ -4,6 +4,7 @@ header{
   background-position: center;
   min-height: 800px;
 }
+
 @media screen and (max-width: 670px){
   header{
     min-height: 300px;
@@ -19,6 +20,7 @@ body {
 
 .navigationbar {
   background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: none;
 }
 
 .section{
@@ -92,67 +94,17 @@ body {
   background: black;
 } */
 
-
-/*CSS for potential form input
-
-/* .contact-title {
-  text-align: center;
-  margin-top: 50px;
-  color: #fff;
-  text-transform: uppercase;
-  transition: all 4s ease-in-out;
+.contact-container {
+  background: rgba(255,255,255, 0.5);
+  border-radius: 5px;
 }
 
-.contact-title h1{
-font-size: 32px;
-line-height: 10px;
+.contact-text {
+  background: rgba(255,255,255, 0.5);
+  color: black;
+  font-size: 30px;
+  font-weight: bolder;
 }
-.contact-title h2{
-  font-size: 16px;
-}
-
-.contact-form {
-  background-color: rgba(47, 45, 48, 0.568);
-}
-
-form {
-  margin: 50px;
-  transition: all 4s ease-in-out;
-}
-
-.form-control {
-  width: 600px;
-  background: transparent;
-  border: none;
-  outline: none;
-  border-bottom: 1px solid gray;
-  color: #fff;
-  font-size: 18px;
-  margin-bottom: 16px;
-}
-
-input {
-  height: 45px;
-}
-
-form .submit {
-  background: #5120d6fd;
-  border-color: transparent;
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  height: 50px;
-  margin-top: 20px;
-  max-width: 50%;
-  vertical-align: middle;
-}
-
-form .submit:hover{
-  background-color: #f44336;
-  cursor: pointer;
-
-} */
 
 
 main {
