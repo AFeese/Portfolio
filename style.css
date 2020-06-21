@@ -78,21 +78,9 @@ body {
   /* border-color: rgb(229, 113, 233); */
 }
 
-/* .card-padding{
-  padding: 10px;
-  border: 10px;
-} */
-
 .testLinks {
   font-size: 20px;
 }
-
-/* body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  background: black;
-} */
 
 .contact-container {
   background: rgba(255,255,255, 0.5);
@@ -106,7 +94,28 @@ body {
   font-weight: bolder;
 }
 
-
 main {
   flex: 1 0 auto;
+}
+
+/*Scroll to top button*/
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: .5px solid blueviolet;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#topBtn:hover {
+  background-color: #555;
 }
