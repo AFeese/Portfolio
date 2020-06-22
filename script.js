@@ -3,6 +3,8 @@ $(document).ready(function () {
   $('.sidenav').sidenav();
   $('.materialboxed').materialbox();
   $('.parallax').parallax();
+
+
 });
 
 //Scroll to top button
