@@ -28,12 +28,15 @@
 
     <div class="navbar-fixed">
       <nav class="nav-wrapper navigationbar">
-        <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
-        </a>
+        <div>
+          <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large left"><i
+              class="material-icons">menu</i></a>
+        </div>
+
         <ul class="right">
           <li><a class="linkStyle" href="#about">About</a></li>
           <li><a class="linkStyle" href="#photos">Projects</a></li>
-          <li><a class="linkStyle" href="#footer">Contact</a></li>
+          <li><a class="linkStyle sidenav-trigger show-on-large" href="#slide-out">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -41,34 +44,36 @@
     <ul id="slide-out" class="sidenav">
       <li>
         <div class="user-view">
-          <div class="background">
-            <img src="imgs/triangle1.jpg">
+          <div class="background sideBackground">
+            <img src="">
           </div>
           <a href="#user"><img class="circle" src="imgs/Me.png"></a>
-          <a href="#name"><span class="white-text name">Ashley Feese</span></a>
-          <a href="#email"><span class="white-text email">ashleyfeese@outlook.com</span></a>
+          <a href="#name"><span class="black-text name">Ashley Feese</span></a>
+          <a href="#email"><span class="black-text email">Full-Stack Developer</span></a>
         </div>
-        <!-- </li>
-      <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-      <li><a href="#!">Second Link</a></li>
+      </li>
       <li>
         <div class="divider"></div>
+      <li><a class="subheader">Contact</a></li>
       </li>
-      <li><a class="subheader">Subheader</a></li>
-      <li><a class="waves-effect" href="#!">Third Link With Waves</a></li> -->
+      <li><a class="waves-effect" href="https://www.linkedin.com/in/ashley-feese/"><i
+            class="fab fa-linkedin fa-2x"></i>LinkedIn | ashley-feese</a></li>
+      <li><a class="waves-effect" href="https://github.com/AFeese"><i class="fab fa-github fa-2x"></i>GitHub |
+          AFeese</a></li>
+      <li><a class="waves-effect" href="#!"><i class="far fa-envelope fa-2x"></i>ashleyfeese@outlook.com</a></li>
     </ul>
 
 
 
   </header>
 
-  <div class="container" id="about">
+  <div class="container" id="">
     <p class="ashley">I'm Ashley Feese</p>
     <p class="ashleySmall" style="color: white; margin-bottom: 60px">Full-Stack Web Developer / Digital Artist</p>
   </div>
 
   <!-- parallax -->
-  <div class="parallax-container">
+  <div class="parallax-container" id="parallaxTwo">
     <div class="parallax">
       <img src="imgs/triangle1.jpg" alt="triangleImg" class="responsive-img">
     </div>
@@ -87,26 +92,16 @@
   </div>
 
   <!-- parallax -->
-  <div class="parallax-container">
+
+  <div class="parallax-container" id="projectsParallax">
     <div class="parallax">
-      <img src="imgs/circuitNarrow.jpg" alt="circuitImg" class="responsive-img">
+      <img src="imgs/triangle1.jpg" alt="triangleImg" class="responsive-img">
     </div>
-    <!-- <div id="headerrow" class="row">
-      <p class="projectsHeader"><img src="imgs/projectsLrg.png" alt="projects" class="responsive"></p>
-      <br>
-    </div> -->
+    <p class="projectsIcon"><img src="imgs/projectsLrg.png" alt="projects" class="responsive"></p>
   </div>
-
-
 
   <!--Projects-->
   <section class="container section" id="photos">
-
-    <div id="headerrow" class="row">
-      <p class="projectsHeader"><img src="imgs/projectsLrg.png" alt="projects" class="responsive"></p>
-      <br>
-    </div>
-
 
     <div id="cardsrow" class="row">
       <div class="col s12 m12 l4 card-padding">
@@ -204,52 +199,6 @@
           </div>
         </div>
       </div>
-
-      <!-- <div class="col s12 m12 l4 card-padding">
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="imgs/Burgers.PNG">
-          </div>
-          <div class="card-content cardBodyBorder" style="background-color:rgba(0, 0, 0, 0.9);">
-            <span class="card-title activator projects" style="font-size: 30px; font-weight: bold;">Eat Dat Burger!<i
-                class="material-icons right">more_vert</i></span>
-            <p class="smallProjects">Click for Details</p>
-          </div>
-          <div class="card-reveal" style="background-color:rgba(0, 0, 0, 0.9);">
-            <span class="card-title projects" style="font-size: 30px; font-weight: bold;">Eat Dat Burger!<i
-                class="material-icons right">close</i></span>
-            <p class="smallProjects">Build and devour a burger with the power of MySql, Express, Node.js, Handlebars and
-              ORM! Don't miss a bite.</p>
-            <div>
-              <p class="testLinks"><a href="https://af-burger.herokuapp.com/">Test Here</a></p>
-              <p class="testLinks"><a href="https://github.com/AFeese/Burger">View Repository</a></p>
-            </div>
-          </div>
-        </div>
-      </div> -->
-
-      <!-- <div class="col s12 m12 l4 card-padding">
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="imgs/pwgen.jpg">
-          </div>
-          <div class="card-content cardBodyBorder" style="background-color:rgba(0, 0, 0, 0.9);">
-            <span class="card-title activator projects" style="font-size: 30px; font-weight: bold;">Password Generator<i
-                class="material-icons right">more_vert</i></span>
-            <p class="smallProjects">Click for Details</p>
-          </div>
-          <div class="card-reveal" style="background-color:rgba(0, 0, 0, 0.9);">
-            <span class="card-title projects" style="font-size: 30px; font-weight: bold;">Password Generator<i
-                class="material-icons right">close</i></span>
-            <p class="smallProjects">Generate a random password for all of your accounts. Choose between Uppercase,
-              Lowercase, numbers, and special characters between 8 and 20 characters long.</p>
-            <div>
-              <p class="testLinks"><a href="https://afeese.github.io/Password-Generator/">Test Here</a></p>
-              <p class="testLinks"><a href="https://github.com/AFeese/Password-Generator">View Repository</a></p>
-            </div>
-          </div>
-        </div>
-      </div> -->
 
       <div class="col s12 m12 l4 card-padding">
         <div class="card">
@@ -369,10 +318,10 @@
       </div>
     </div>
   </div>
+
   <div class="footer-copyright purple accent-4">
-    <div class="container" style="color: white;">
+    <div class="container" id="copyright" style="color: white;">
       © 2020 Copyright - Ashley Feese - Powered by GitHub
-      <a class="white-text text-lighten-4 right" href="index.html">Back to Top</a>
     </div>
   </div>
 </footer>
