@@ -25,14 +25,14 @@
   <button onclick="topFunction()" id="topBtn" title="Go to top">Back to Top</button>
 
   <header>
-
+<!-- NAVBAR -->
     <div class="navbar-fixed">
       <nav class="nav-wrapper navigationbar">
         <div>
           <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large left"><i
               class="material-icons">menu</i></a>
         </div>
-
+<!--Left side navbar-->
         <ul class="right">
           <li><a class="linkStyle" href="#about">About</a></li>
           <li><a class="linkStyle" href="#photos">Projects</a></li>
@@ -40,7 +40,7 @@
         </ul>
       </nav>
     </div>
-
+<!-- Slide out side nav -->
     <ul id="slide-out" class="sidenav">
       <li>
         <div class="user-view">
@@ -62,10 +62,8 @@
           AFeese</a></li>
       <li><a class="waves-effect" href="#!"><i class="far fa-envelope fa-2x"></i>ashleyfeese@outlook.com</a></li>
     </ul>
-
-
-
   </header>
+
 
   <div class="container" id="">
     <p class="ashley">I'm Ashley Feese</p>
@@ -91,7 +89,6 @@
   </div>
 
   <!-- parallax -->
-
   <div class="parallax-container" id="projectsParallax">
     <div class="parallax">
       <img src="imgs/triangle1.jpg" alt="triangleImg" class="responsive-img">
@@ -103,6 +100,28 @@
   <section class="container section" id="photos">
 
     <div id="cardsrow" class="row">
+
+      <div class="col s12 m12 l4 card-padding">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="imgs/rpv.png">
+          </div>
+          <div class="card-content cardBodyBorder" style="background-color:rgba(0, 0, 0, 0.9);">
+            <span class="card-title activator projects" style="font-size: 30px; font-weight: bold;">Red Plant Voyagers<i class="material-icons right">more_vert</i></span>
+            <p class="smallProjects">Click for Details</p>
+          </div>
+          <div class="card-reveal" style="background-color:rgba(0, 0, 0, 0.9);">
+            <span class="card-title projects" style="font-size: 30px; font-weight: bold;">Red Plant Voyagers - Mars travel hub<i
+                class="material-icons right">close</i></span>
+            <p class="smallProjects">Looking to vacation to Mars? Check the weather for your stay before you go! Red Planet Voyagers, your daily dose of Mars info. 
+              View weather trends, forecast, and data charts. View photos for a more enticing visit and view upcoming launch dates!</p>
+            <p class="testLinks"><a href="https://team-5-project-2.herokuapp.com/">Test Here</a></p>
+            <p class="testLinks"><a href="https://github.com/AFeese/RedPlanetVoyagers">View Repository</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div class="col s12 m12 l4 card-padding">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
@@ -131,12 +150,12 @@
             <img class="activator" src="imgs/templateENG.png">
           </div>
           <div class="card-content cardBodyBorder" style="background-color:rgba(0, 0, 0, 0.9);">
-            <span class="card-title activator projects" style="font-size: 28px; font-weight: bold;">CLI Team Template
+            <span class="card-title activator projects" style="font-size: 28px; font-weight: bold;">Team Template
               Engine<i class="material-icons right">more_vert</i></span>
             <p class="smallProjects">Click for Details</p>
           </div>
           <div class="card-reveal" style="background-color:rgba(0, 0, 0, 0.9);">
-            <span class="card-title projects" style="font-size: 28px; font-weight: bold;">CLI Team Template Engine<i
+            <span class="card-title projects" style="font-size: 28px; font-weight: bold;">Team Template Engine<i
                 class="material-icons right">close</i></span>
             <p class="smallProjects">A command line application that generates a software engineering team list. User
               selects team members and a file is generated that
@@ -149,6 +168,11 @@
           </div>
         </div>
       </div>
+
+
+    </div>
+
+    <div id="cardsrow" class="row">
 
       <div class="col s12 m12 l4 card-padding">
         <div class="card">
@@ -173,9 +197,6 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <div id="cardsrow" class="row">
 
       <div class="col s12 m12 l4 card-padding">
         <div class="card">
@@ -183,12 +204,12 @@
             <img class="activator" src="imgs/cliReadme.PNG">
           </div>
           <div class="card-content cardBodyBorder" style="background-color:rgba(0, 0, 0, 0.9);">
-            <span class="card-title activator projects" style="font-size: 28px; font-weight: bold;">CLI README
+            <span class="card-title activator projects" style="font-size: 28px; font-weight: bold;">README
               Generator<i class="material-icons right">more_vert</i></span>
             <p class="smallProjects">Click for Details</p>
           </div>
           <div class="card-reveal" style="background-color:rgba(0, 0, 0, 0.9);">
-            <span class="card-title projects" style="font-size: 30px; font-weight: bold;">CLI README Generator<i
+            <span class="card-title projects" style="font-size: 30px; font-weight: bold;">README Generator<i
                 class="material-icons right">close</i></span>
             <p class="smallProjects">Use the CLI (command line interface) to uniquely generate a README for your
               project, according to your input preferences.</p>
