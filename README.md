@@ -12,7 +12,6 @@ This project showcases my work and about myself!
 
 
 ## Installation: 
-### Use the following instruction to install: 
 
 No installation needed. Live page hosted by GitHub Pages ```https://afeese.github.io/Portfolio/```
 
